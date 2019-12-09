@@ -1,7 +1,7 @@
 require 'down'
 
 class ImageFetcher
-  attr_reader :file_path, :destination_path
+  attr_reader :file_path
 
   def initialize(file_path:)
     @file_path = file_path
